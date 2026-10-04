@@ -105,3 +105,13 @@ menuBtn.addEventListener("click",()=>{
 document.querySelectorAll(".nav a").forEach(a=>a.addEventListener("click",()=>nav.classList.remove("mobile-open")));
 
 render();
+
+// Location photo lightbox
+const lb = document.getElementById("lightbox");
+const lbImg = lb.querySelector("img");
+document.querySelectorAll(".loc").forEach(b=>b.addEventListener("click",()=>{
+  lbImg.src = b.dataset.full;
+  lbImg.alt = b.querySelector("img").alt;
+  lb.showModal();
+}));
+lb.addEventListener("click",()=>lb.close());

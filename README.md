@@ -31,3 +31,12 @@ For a production site with many videos, use a video CDN/object storage rather th
 
 ## Suggested next upgrade
 Connect the portfolio to a CMS or simple JSON data source so new projects can be added without editing the HTML.
+
+## Contact links to replace (in `index.html`)
+Search for `REPLACE_ME` and `XXXXXXXXXX`:
+- WhatsApp: `https://wa.me/201XXXXXXXXX` (country code, no + or spaces) - appears in the card and the floating button
+- Phone, Linktree, Instagram, Facebook, TikTok, YouTube, Behance
+- Google Maps link in the Locations section
+
+## Adding location photos
+Put the photo in `assets/images/`, then copy one `<button class="loc">...</button>` block in the Locations section.

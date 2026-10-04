@@ -20,6 +20,7 @@
     <nav class="nav">
       <a href="#work">Work</a>
       <a href="#studio">Studio</a>
+      <a href="#locations">Locations</a>
       <a href="#services">Services</a>
       <a href="#clients">Clients</a>
       <a href="#contact">Contact</a>
@@ -88,16 +89,31 @@
           <p>Our studio is designed to move with the idea — from clean talking-head setups to product shots, podcasts, educational content and branded campaigns.</p>
           <a class="text-link dark" href="#contact">Book the studio <span>↗</span></a>
         </div>
-        <div class="studio-gallery">
+        <div class="studio-gallery single">
           <figure class="gallery-main"><img src="assets/images/KAS03816.JPG" alt="Alien Studio set"></figure>
-          <figure><img src="assets/images/KAS03707.JPG" alt="Alien Studio lighting setup"></figure>
-          <figure><img src="assets/images/KAS03723.JPG" alt="Alien Studio interior"></figure>
         </div>
       </div>
     </section>
 
+
+    <section id="locations" class="locations-section">
+      <div class="section-label">04 / LOCATIONS</div>
+      <div class="locations-head">
+        <h2>Pick a set.<br><span>Start shooting.</span></h2>
+        <p>Every corner of the studio is ready for filming. Tap any photo to see it full size.</p>
+      </div>
+      <div class="locations-grid">
+        <button class="loc" data-full="assets/images/KAS03707.JPG"><img src="assets/images/KAS03707.JPG" alt="Blue interview set with shelves and soft lighting" loading="lazy"><figcaption>Blue interview set<small>Shelves, soft light, white table</small></figcaption></button>
+        <button class="loc" data-full="assets/images/KAS03723.JPG"><img src="assets/images/KAS03723.JPG" alt="Shelf and decor corner" loading="lazy"><figcaption>Shelf corner<small>Close-ups and product shots</small></figcaption></button>
+        <button class="loc" data-full="assets/images/KAS03793.JPG"><img src="assets/images/KAS03793.JPG" alt="Podcast table with window light" loading="lazy"><figcaption>Podcast table<small>Two guests, window-light backdrop</small></figcaption></button>
+        <button class="loc" data-full="assets/images/KAS03816.JPG"><img src="assets/images/KAS03816.JPG" alt="Desk set with laptop and phone" loading="lazy"><figcaption>Desk set<small>Tutorials and talking-head videos</small></figcaption></button>
+        <div class="loc-add"><div><b>+</b>Add more location photos to <code>assets/images/</code> and copy one block in <code>index.html</code></div></div>
+      </div>
+      <a class="text-link map-link" href="https://maps.app.goo.gl/REPLACE_ME" target="_blank" rel="noopener">Open studio location on Google Maps <span>↗</span></a>
+    </section>
+
     <section id="services" class="services-section">
-      <div class="section-label">04 / WHAT WE DO</div>
+      <div class="section-label">05 / WHAT WE DO</div>
       <div class="services-title-row">
         <h2>One studio.<br><span>Many ways to create.</span></h2>
         <p>Need one reel or an entire content system? We can plug into your team at whatever level the project needs.</p>
@@ -111,7 +127,7 @@
     </section>
 
     <section id="clients" class="clients-section">
-      <div class="section-label">05 / PEOPLE WE'VE WORKED WITH</div>
+      <div class="section-label">06 / PEOPLE WE'VE WORKED WITH</div>
       <h2>Built with <span>good people.</span></h2>
       <div class="client-names">
         <span>محمد اشرف</span>
@@ -126,14 +142,21 @@
     <section id="contact" class="contact-section">
       <div class="contact-inner">
         <div>
-          <div class="section-label">06 / LET'S TALK</div>
+          <div class="section-label">07 / LET'S TALK</div>
           <h2>Have an idea?<br><span>Let's make it real.</span></h2>
         </div>
         <div class="contact-card">
           <p>Tell us what you're building and what you need from Alien Studio.</p>
+          <a class="wa" href="https://wa.me/201150775008?text=Hello%20Alien%20Studio%2C%20I%20want%20to%20start%20a%20project" target="_blank" rel="noopener">Chat on WhatsApp <span>↗</span></a>
+          <a href="tel:+201150775008">+20 XXX XXX XXXX <span>↗</span></a>
           <a href="mailto:hello@alienstudio.eg">hello@alienstudio.eg <span>↗</span></a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram <span>↗</span></a>
-          <div class="location">Alexandria, Egypt</div>
+          <a href="http://linktr.ee/Alienstudiooo" target="_blank" rel="noopener">All our links on Linktree <span>↗</span></a>
+          <div class="socials">
+            <a href="https://www.instagram.com/REPLACE_ME" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.facebook.com/AlienStudiooo/" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.tiktok.com/@alienstudiooo" target="_blank" rel="noopener">TikTok</a>
+          </div>
+          <div class="location loc-line">Alexandria, Egypt</div>
         </div>
       </div>
     </section>
@@ -144,6 +167,10 @@
     <span>© 2026 Alien Studio. All rights reserved.</span>
     <a href="#home">Back to top ↑</a>
   </footer>
+
+  <a class="wa-float" href="https://wa.me/201150775008" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp <span>Chat</span></a>
+
+  <dialog class="lightbox" id="lightbox"><button aria-label="Close">✕</button><img alt=""></dialog>
 
   <script src="script.js"></script>
 </body>
